@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pixels&Pages</title>
+  <link rel="stylesheet" href="ace.css">
+  <script src="https://kit.fontawesome.com/58b4c7a162.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="header">
+      <div class="container">
+        <nav>
+          <img src="nessa3.png" class="logo">
+          <ul id="sidemenu">
+            <li><a href="#header">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#services">SERVICES</a></li>
+            <li><a href="#portfolio">PORTFOLIO</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p><span class="gp"> Graphic Designer</span></p>
+          <h1 >Hello I'm <span class="hii">Nessa</span><br> From Leeds</h1>
+        </div>
+      </div>
+  </div>
+  <!-- ----------about---------->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="7.png" >
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <p>I am a passionate photographer who loves capturing real moments and turning them into lasting memories. Through my lens, I focus on potraits/nature/events-choose your niche. My goal is to create timeless images that speak for themselves and reflect genuine emotions</p>
+
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links"onclick="opentab('experience')">Experience</p>
+            <p class="tab-links"onclick="opentab('education')">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>Potrait/Landscape</span><br>Camera Operation/Lighting</li>
+              <li><span>Photo Retouching</span><br>Enhacement</li>
+              <li><span>Graphic Designing</span><br>Social Medai Marketing</li>
+            </ul>
+          </div>
+           <div class="tab-contents" id="experience">
+            <ul>
+              <li><span>2021 - Current</span><br>Delivered edited phot collections under short deadlines</li>
+              <li><span>2019 - 2021</span><br>Team Meadia at StarApp LLC.</li>
+              <li><span>2017 - 2019</span><br>UI/UX Design Executive at Nessa B Enterprise Ltd</li>
+              <li><span>2016 - 2017</span><br>Internship CHNTS.</li>
+            </ul>
+          </div>
+           <div class="tab-contents" id="education">
+            <ul>
+              <li><span>2016</span><br>UI/UX Design Training at ET Institute</li>
+              <li><span>2016</span><br>MBA from MIT Bangalore.</li>
+              <li><span>2014</span><br>BBA from ISM Bangakore</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ---------services------------ -->
+   <div id="services">
+      <div class="container">
+        <h1 class="sub-title" class="video">My Services</h1>
+        <div class="services-list">
+          
+          <div>
+            <i class="fa-solid fa-camera-retro"></i>
+            <h2 style="font-weight: bold;">PHOTOGRAPHY</h2>
+            <p>Photography is more than pictures. it's capturing emotion. I offer potrait, event and creative photography designed to make every moment unforgettable.</p>
+            <a href="#">Learn more</a>
+          </div>
+
+           <div>
+            <i class="fa-solid fa-crop-simple"></i>
+            <h2 style="font-weight: bold;">VIDEOGRAPHY</h2>
+            <p >I offer high quality photography for potraits, events, and creative projects. Each session is personalized to capture your story and style, with professional editing included.</p>
+            <a href="#">Learn more</a>
+          </div>
+
+           <div>
+            <i class="fa-brands fa-apple"></i>
+            <h2 style="font-weight: bold; ">CREATIVE PROJECTS</h2>
+            <p>I provide high quality photos and videos for individuals and brands. From creative shoots to event highlights, my work focuses on authentic moments and modern visuals that stand out.</p>
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
+   </div>
+  <!--------------portfolio-------------->
+  <div id="portfolio">
+    <div class="container">
+      <h1 class="sub-title">My Work</h1>
+      <div class="work-list">
+       
+        <div class="work">
+          <img src="10.png">
+          <div class="layer">
+            <h3>Lens Shop</h3>
+            <p>The app connects people round the world. Download from Playstore</p>
+            <a href="#"><i class="fa-solid fa-link"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="11.png">
+          <div class="layer">
+            <h3>Creative Hub</h3>
+            <p>The app connects people round the world. Download from Playstore</p>
+            <a href="#"><i class="fa-solid fa-link"></i></a>
+          </div>
+        </div>
+         <div class="work">
+          <img src="12.png">
+          <div class="layer">
+            <h3>Lens Network</h3>
+            <p>The app connects people round the world. Download from Playstore</p>
+            <a href="#"><i class="fa-solid fa-link"></i></a>
+          </div>
+        </div>
+
+      </div>
+      <a href="#" class="btn">See More</a>
+    </div>
+  </div>
+  <!-----------contactt--------->
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1>
+          <p><i class="fa-solid fa-paper-plane" ></i>
+            <span style="margin-right: 10px;">nessabenterprise@yahoo.com</span></p>
+          <p><i class="fa-solid fa-phone"></i>07459385184</p>
+          <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+          </div>
+          <a href="cv.pdf" download class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right">
+          <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Your Name" required>
+            <input type="text" name="Email" placeholder="Your email" required>
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>Copyright &copy; Nessa. Made with <i class="fa-solid fa-heart"></i> by NB Photographies</p>
+    </div>
+  </div>
+  <script>
+
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+   
+    function opentab(tabname){
+      for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+      }
+      for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+    }
+  </script>
+  <script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu() {
+      sidemenu.style.right = "0";
+    }
+     function closemenu() {
+      sidemenu.style.right = "-200px";
+    }
+  </script>
+  <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwaAFasLF5Zgk3W0S7Csh2bqg1S20jWFI0q1Zy0BnZfAmXjKvYFKGdnbXVNd6n_7eQ4/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message sent successfully"
+        setTimeout(function(){
+          msg.innerHTML = ""
+        },5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>
